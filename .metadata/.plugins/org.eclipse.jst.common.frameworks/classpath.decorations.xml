@@ -1,0 +1,17 @@
+<classpath>
+  <container id="crm_heima32!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="D:/myproject/crm_heima32/WebContent/WEB-INF/lib/spring-jdbc-3.2.0.RELEASE.jar">
+      <source-attachment-path>D:/ssh/spring-framework-4.2.4.RELEASE-dist/spring-framework-4.2.4.RELEASE/libs/spring-jdbc-4.2.4.RELEASE-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+  <container id="CXF_service!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="D:/myproject/CXF_service/WebContent/WEB-INF/lib/cxf-2.4.2.jar">
+      <source-attachment-path>F:/框架/【阶段11】物流BOS系统/BOS-day07/BOS-day07/资料/apache-cxf-2.4.2.zip</source-attachment-path>
+    </entry>
+  </container>
+  <container id="springmvc-01!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="D:/myproject/springmvc-01/WebContent/WEB-INF/lib/spring-webmvc-4.1.3.RELEASE.jar">
+      <source-attachment-path>F:/框架/【阶段13】spring mvc/springmvc_day01/springmvc/01.参考资料/jar包/源码包/spring-webmvc-4.1.3.RELEASE-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

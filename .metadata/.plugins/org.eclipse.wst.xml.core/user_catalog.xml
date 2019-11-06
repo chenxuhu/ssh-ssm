@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="http://struts.apache.org/dtds/struts-2.3.dtd" uri="file:///D:/ssh/dtd/struts-2.3.dtd"/>
+  <uri name="http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" uri="file:///D:/ssh/dtd/hibernate-mapping-3.0.dtd"/>
+  <uri name="http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd" uri="file:///D:/ssh/dtd/hibernate-configuration-3.0.dtd"/>
+  <system systemId="http://www.springframework.org/schema/beans/spring-beans-4.2.xsd" uri="file:///D:/ssh/spring-framework-4.2.4.RELEASE-dist/spring-framework-4.2.4.RELEASE/schema/beans/spring-beans-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/context/spring-context-4.2.xsd" uri="file:///D:/ssh/spring-framework-4.2.4.RELEASE-dist/spring-framework-4.2.4.RELEASE/schema/context/spring-context-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/tool/spring-tool-4.2.xsd" uri="file:///D:/ssh/spring-framework-4.2.4.RELEASE-dist/spring-framework-4.2.4.RELEASE/schema/tool/spring-tool-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/tx/spring-tx-4.2.xsd" uri="file:///D:/ssh/spring-framework-4.2.4.RELEASE-dist/spring-framework-4.2.4.RELEASE/schema/tx/spring-tx-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/aop/spring-aop-4.2.xsd" uri="file:///D:/ssh/spring-framework-4.2.4.RELEASE-dist/spring-framework-4.2.4.RELEASE/schema/aop/spring-aop-4.2.xsd"/>
+  <uri name=" http://mybatis.org/dtd/mybatis-3-mapper.dtd" uri="file:///D:/mybatis/dtd/mybatis-3-mapper.dtd"/>
+  <uri name="http://mybatis.org/dtd/mybatis-3-config.dtd" uri="file:///D:/mybatis/dtd/mybatis-3-config.dtd"/>
+  <system systemId="http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd" uri="file:///D:/ssh/spring-framework-4.2.4.RELEASE-dist/spring-framework-4.2.4.RELEASE/schema/mvc/spring-mvc-4.2.xsd"/>
+</catalog>

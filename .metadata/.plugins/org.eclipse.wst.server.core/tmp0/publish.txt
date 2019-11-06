@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Wed Sep 11 16:34:15 CST 2019
+org.eclipse.jst.jee.server\:/binary\:D\:\\myproject\\crm\\WebContent\\WEB-INF\\lib\\spring-web-4.1.3.RELEASE.jar=D\:\\tomcat\\webapps\\crm\\WEB-INF\\lib\\spring-web-4.1.3.RELEASE.jar
+org.eclipse.jst.jee.server\:crm=D\:\\tomcat\\webapps\\crm

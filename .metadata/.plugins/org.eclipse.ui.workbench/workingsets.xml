@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1566559287333_2" label="spring-mybatis" name="spring-mybatis">
+<item elementID="=mybatis-spring2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=mybatis-spring" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=mybatis" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=springmvc-mybatis" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=generatorSqlmapCustom" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1566640718140_3" label="springmvc" name="springmvc">
+<item elementID="=springmvc-01" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=springmvc-mybatis" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=逆向工程springmvc" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=springmvc-mybatis02" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1567322136401_5" label="ssm32" name="ssm32">
+<item elementID="=crm" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1564823313166_0" label="Window Working Set" name="Aggregate for window 1564823313166"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1566641605435_8" label="Multiple Working Sets" name="Aggregate:spring-mybatis:springmvc:">
+<workingSet IMemento.internal.id="spring-mybatis"/>
+<workingSet IMemento.internal.id="springmvc"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1568121263926_6" label="Multiple Working Sets" name="Aggregate:spring-mybatis:springmvc:ssm32:">
+<workingSet IMemento.internal.id="spring-mybatis"/>
+<workingSet IMemento.internal.id="springmvc"/>
+<workingSet IMemento.internal.id="ssm32"/>
+</workingSet>
+</workingSetManager>

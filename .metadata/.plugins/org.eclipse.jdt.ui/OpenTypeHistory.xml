@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=CXF_service/D:\/myproject\/CXF_service\/WebContent\/WEB-INF\/lib\/cxf-2.4.2.jar&lt;org.apache.cxf.transport.servlet(CXFServlet.class[CXFServlet" modifiers="33" timestamp="1565055182856"/>
+<typeInfo handle="=bos-dao/D:\/repository\/org\/apache\/cxf\/cxf-rt-transports-http\/3.0.1\/cxf-rt-transports-http-3.0.1.jar&lt;org.apache.cxf.transport.servlet(CXFServlet.class[CXFServlet" modifiers="33" timestamp="1467360609454"/>
+<typeInfo handle="=crm_heima32/D:\/myproject\/crm_heima32\/WebContent\/WEB-INF\/lib\/spring-jdbc-3.2.0.RELEASE.jar&lt;org.springframework.jdbc.datasource(DriverManagerDataSource.class[DriverManagerDataSource" modifiers="33" timestamp="1565055182914"/>
+<typeInfo handle="=crm_heima32/D:\/myproject\/crm_heima32\/WebContent\/WEB-INF\/lib\/spring-jdbc-3.2.0.RELEASE.jar&lt;org.springframework.jdbc.datasource(DataSourceTransactionManager.class[DataSourceTransactionManager" modifiers="33" timestamp="1565055182914"/>
+<typeInfo handle="=crm_heima32/D:\/myproject\/crm_heima32\/WebContent\/WEB-INF\/lib\/spring-jdbc-3.2.0.RELEASE.jar&lt;org.springframework.jdbc.core(JdbcTemplate.class[JdbcTemplate" modifiers="33" timestamp="1565055182914"/>
+<typeInfo handle="=bos-service/src\/main\/java&lt;com.itheima.bos.service{IWorkordermanageService.java[IWorkordermanageService" modifiers="513" timestamp="1565578688660"/>
+<typeInfo handle="=bos-dao/src\/main\/java&lt;com.itheima.bos.dao.base{IBaseDao.java[IBaseDao" modifiers="513" timestamp="1564832351617"/>
+<typeInfo handle="=bos-dao/src\/main\/java&lt;com.itheima.bos.dao.base.impl{BaseDaoImpl.java[BaseDaoImpl" modifiers="1" timestamp="1564832351621"/>
+<typeInfo handle="=bos-dao/src\/main\/java&lt;com.itheima.bos.dao{IWorkordermanageDao.java[IWorkordermanageDao" modifiers="513" timestamp="1565578991172"/>
+<typeInfo handle="=bos-dao/D:\/repository\/org\/springframework\/spring-web\/4.2.4.RELEASE\/spring-web-4.2.4.RELEASE.jar&lt;org.springframework.web.filter(DelegatingFilterProxy.class[DelegatingFilterProxy" modifiers="33" timestamp="1463371962740"/>
+<typeInfo handle="=bos-dao/D:\/repository\/org\/apache\/shiro\/shiro-all\/1.2.2\/shiro-all-1.2.2.jar&lt;org.apache.shiro.web.servlet(ShiroFilter.class[ShiroFilter" modifiers="33" timestamp="1461816050865"/>
+<typeInfo handle="=bos-dao/D:\/repository\/org\/apache\/shiro\/shiro-all\/1.2.2\/shiro-all-1.2.2.jar&lt;org.apache.shiro.spring.web(ShiroFilterFactoryBean.class[ShiroFilterFactoryBean" modifiers="33" timestamp="1461816050865"/>
+<typeInfo handle="=bos-dao/D:\/repository\/org\/apache\/shiro\/shiro-core\/1.2.2\/shiro-core-1.2.2.jar&lt;org.apache.shiro.authz(UnauthorizedException.class[UnauthorizedException" modifiers="33" timestamp="1461816053313"/>
+</typeInfoHistroy>

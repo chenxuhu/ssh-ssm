@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 使用test的命名空间 <mapper namespace="test"> -->
+<!-- 使用Mapper的命名空间测试 -->
+<mapper namespace="com.itheima.mybatis.mapper.UserMapper">
+
+<!-- 提取公共的select片段 -->
+<sql id="selector">
+select * from User
+</sql>
+
+	<!-- 通过id查找用户 -->
+	<select id="findUserById" parameterType="Integer"
+		resultType="com.itheima.mybatis.pojo.User">
+		select * from User where id=#{id}<!--{}里可以随便写 -->
+	</select>
+
+
+	<!-- 根据名字查User -->
+	<select id="findUserByName" parameterType="String"
+		resultType="com.itheima.mybatis.pojo.User">
+		select * from User where username like "%"#{val}"%"
+	</select>
+
+
+	<insert id="insertUser" parameterType="com.itheima.mybatis.pojo.User">
+		<selectKey keyProperty="id" resultType="Integer" order="AFTER">
+			select LAST_INSERT_ID()
+		</selectKey>
+		insert into user(username,birthday,sex,address)
+		value(#{username},#{birthday},#{sex},#{address})
+	</insert>
+
+	<update id="updateUser" parameterType="com.itheima.mybatis.pojo.User">
+		update user set
+		username=#{username},birthday=#{birthday},sex=#{sex},address=#{address}
+		where id=#{id}
+	</update>
+	<delete id="deleteUser" parameterType="Integer">
+		delete from user where id = #{id}
+	</delete>
+
+	<!-- 根据用户名模糊查询 -->
+	<select id="findUserByQueryVo" parameterType="QueryVo"
+		resultType="com.itheima.mybatis.pojo.User">
+		select * from user where username like "%"#{user.username}"%"
+	</select>
+
+	<select id="countUser" resultType="Integer">
+		select count(*) from user
+	</select>
+
+	<select id="selectUserSexandUsername" parameterType="User"
+		resultType="User">
+		<include refid="selector"></include>  <!-- select * from user -->
+		<where><!-- where标签能去掉第一前and -->
+		<if test="sex != null and sex !=''">
+			sex =#{sex}
+		</if>
+		<if test="username != null and username !=''">
+		and username=#{username}
+		</if>
+		</where>
+	</select>
+	
+	<!-- 多个id查询  (1,2,3) -->
+	<select id="selectUserByIds" parameterType="QueryVo" resultType="User">
+	<include refid="selector" />
+	<where>
+	id in
+	<!-- 如果是数组，改成collection="ids" -->
+	<foreach collection="idsList" item="id" separator="," open="(" close=")">
+	#{id}
+	</foreach>
+	</where>
+	</select>
+
+</mapper>
+
+

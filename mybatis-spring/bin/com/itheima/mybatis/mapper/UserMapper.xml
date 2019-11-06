@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 使用test的命名空间 <mapper namespace="test"> -->
+<!-- 使用Mapper的命名空间测试 -->
+<mapper namespace="com.itheima.mybatis.mapper.UserMapper">
+
+	<select id="findUserById" parameterType="Integer" resultType="User">
+      select * from user where id=#{id}
+	</select>
+
+</mapper>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;cxf.xml&apos; to &apos;cxf_client/src&apos;&#x0D;&#x0A;- Original project: &apos;cxf_client&apos;&#x0D;&#x0A;- Destination element: &apos;cxf_client/src&apos;&#x0D;&#x0A;- Original element: &apos;cxf.xml&apos;" description="Copy file" destination="/src" element1="src/config/cxf.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1565071749414" units="0" version="1.0"/>
+</session>

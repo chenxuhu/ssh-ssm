@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 使用test的命名空间 
+<mapper namespace="test">
+
+-->
+<!-- 使用Mapper的命名空间测试 -->
+<mapper namespace="com.itheima.mybatis.mapper.UserMapper">
+
+<!-- 通过id查找用户 -->
+<select id="findUserById" parameterType="Integer" resultType="com.itheima.mybatis.pojo.User">
+ select * from User where id=#{id}<!--{}里可以随便写 -->
+</select>
+
+
+<!-- 根据名字查User -->
+<select id="findUserByName" parameterType="String" resultType="com.itheima.mybatis.pojo.User">
+  select * from User where username like "%"#{val}"%"
+</select>
+
+
+<insert id="insertUser" parameterType="com.itheima.mybatis.pojo.User">
+<selectKey keyProperty="id" resultType="Integer" order="AFTER">
+select LAST_INSERT_ID()
+</selectKey>
+   insert into user(username,birthday,sex,address) value(#{username},#{birthday},#{sex},#{address}) 
+</insert>
+
+<update id="updateUser" parameterType="com.itheima.mybatis.pojo.User">
+  update user set username=#{username},birthday=#{birthday},sex=#{sex},address=#{address}
+   where id=#{id}
+</update>
+<delete id="deleteUser" parameterType="Integer">
+ delete from user where id = #{id}
+</delete>
+
+</mapper>
